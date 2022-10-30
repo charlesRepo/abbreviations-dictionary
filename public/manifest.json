@@ -6,11 +6,11 @@
   "action": {
     "default_popup": "index.html",
     "default_title": "Open the popup",
-    "default_icon": "logo192.png"
+    "default_icon": "abbr_128.png"
   },
   "icons": {
-    "16": "logo192.png",
-    "48": "logo192.png",
-    "128": "logo192.png"
+    "16": "abbr_16.png",
+    "48": "abbr_48.png",
+    "128": "abbr_128.png"
   }
 }
