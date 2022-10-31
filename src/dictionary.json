@@ -21,9 +21,10 @@
   "EMEA": "Europe, Middle-East, Asia",
   "NOAM": "North America",
   "APAC": "Asia-Pacific",
-  "GTM": "Go To Market",
+  "GTM": "Go To Market. OR Google Tag Manager. Depends on the context.",
   "QL": "Qualified Leads",
-  "MQL": "Marketing Qualified Leads",
+  "MQL": "Marketing Qualified Lead",
+  "PML": "Pre Marketing Lead",
   "NPS": "Net Promoter Score",
   "SLA" : "Service Level Agreement.",
   "SKU": "Stock Keeping Unit",
@@ -33,6 +34,8 @@
   "LTV": "Life Time Value. This is how much money we get from customers throughout their life time. ",
   "CAC": "Customer Acquisition Cost. This is the upfront cost we need to pay to acquire a customer. Usually includes marketing cost, sale cost, infrastructure to host the customers trial.",
   "DD" : "Datadog.",
-  "GAP" : "Global Assets Package. A repository used for storing global Front-end assets, which can be imported and used in different unrelated projects."
-  
+  "GAP" : "Global Assets Package. A repository used for storing global Front-end assets, which can be imported and used in different unrelated projects.",
+  "TOFU" : "Top Of FUnnel.",
+  "BOFU": "Bottom Of FUnnel.",
+  "MOFU": "Middle Of FUnnel."  
 }
