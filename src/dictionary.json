@@ -17,7 +17,7 @@
   "RaQ": "Request a Quote form.",
   "DWWSWAGTD": "Do What We Say We Are Going To Do",
   "ETF": "Early Termination Fee",
-  "ARPU": "Average Revenue Per Unit",
+  "ARPU": "Average Revenue Per User. Represents the total subscription revenue and transaction-based revenue of the Company in the period divided by the number of Customer Locations of the Company in the period. For greater clarity, the number of Customer Locations of the Company in the period is calculated by taking the average number of Customer Locations throughout the period.",
   "EMEA": "Europe, Middle-East, Asia",
   "NOAM": "North America",
   "APAC": "Asia-Pacific",
@@ -28,7 +28,6 @@
   "NPS": "Net Promoter Score",
   "SLA" : "Service Level Agreement.",
   "SKU": "Stock Keeping Unit",
-  "GTV" : "Gross Transactional Value. ",
   "SEO" : "Search Engine Optimization.",
   "DoD" : "Definition of Done.",
   "LTV": "Life Time Value. This is how much money we get from customers throughout their life time. ",
@@ -37,5 +36,14 @@
   "GAP" : "Global Assets Package. A repository used for storing global Front-end assets, which can be imported and used in different unrelated projects.",
   "TOFU" : "Top Of FUnnel.",
   "BOFU": "Bottom Of FUnnel.",
-  "MOFU": "Middle Of FUnnel."  
+  "MOFU": "Middle Of FUnnel.",
+  "EBITDA": "Earnings Before Interest, Taxes, Depreciation, and Amortization. EBITDA, as adjusted for share-based compensation and related payroll taxes, compensation expenses relating to acquisitions completed, foreign exchange gains and losses, transaction-related costs, restructuring and litigation provisions.",
+  "YoY": "Year over Year.",
+  "MoM": "Month over Month.",
+  "SMB": "Small and Medium-sized Businesses",
+  "GTV" : "Gross Transactional Value.",
+  "GPV": "Gross Payment Volume.",
+  "SME": "Small and Medium-sized Enterprises",
+  "SOA": "Service-Oriented Architecture.",
+  "BFCM": "Black Friday Cyber Monday"
 }
