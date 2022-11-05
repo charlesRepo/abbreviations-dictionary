@@ -1,31 +1,8 @@
-import MatchesContainer from "./MatchesContainer";
-import React, {useState} from "react";
-import Definition from "./Definition";
-
-export default function Input() {
-
-    const [query, setQuery] = useState('');
-    const [count, setCount] = useState(0);
-    const [def, setDef] = useState('');
-    const [term, setTerm] =useState('')
-
-    function OnKeyUp(e:React.KeyboardEvent){
-        if(e.code !== 'Enter'){
-            setQuery((e.currentTarget as HTMLInputElement).value)
-        }
-        if(e.code === 'ArrowUp'){
-            setCount(count-1);
-        }
-        if(e.code === 'ArrowDown'){
-            setCount(count+1);
-        }
-        if(e.code === 'Enter'){
-            (e.currentTarget as HTMLInputElement).value = term
-            setQuery(term);
-        }
-    }
-
-
+import React from 'react';
+interface PropsInterface {
+    OnKeyUp:React.KeyboardEventHandler<HTMLInputElement>
+}
+export default function Input({OnKeyUp}:PropsInterface) {
     return (
         <div>
             <label htmlFor="termInput" className="block text-sm font-medium text-slate-400">
@@ -46,10 +23,6 @@ export default function Input() {
                     </label>
                 </div>
             </div>
-
-            <MatchesContainer query={query} count={count} setCount={setCount} setDef={setDef}  setTerm={setTerm} />
-
-            <Definition def={def}/>
         </div>
     )
 }
