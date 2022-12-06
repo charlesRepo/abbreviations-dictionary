@@ -8,6 +8,7 @@
   "K-series": "Restaurant product formerly iKentoo",
   "G-series": "Restaurant product formerly Gastrofix",
   "U-series": "Restaurant product formerly Upserve",
+  "O-series": "Restaurant product formerly Kounta",
   "AMRR": "Annual Monthly Recurrent Revenue",
   "ARR": "Annual Recurrent Revenue",
   "MRR": "Monthly Recurrent Revenue",
@@ -51,5 +52,6 @@
   "AFAIK": "As Far As I Know.",
   "IMHO": "In My Honest Opinion.",
   "TTV": "Time To Value",
-  "BPB": "People Business Partner"
+  "BPB": "People Business Partner",
+  "BeNeLux": "Belgium, Netherlands, and Luxembourg region."
 }
