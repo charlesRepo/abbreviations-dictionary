@@ -54,7 +54,7 @@ export default function MatchesContainer({query, count, setCount, setDef, setTer
 			setTerm(matchesArray[count]);
 			findMatches(cleanedQuery);
 			getData().then((data) => setDef(data[matchesArray[count]]));
-		});
+		}, [count, cleanedQuery, query]);
 
 		return (
 			<>
