@@ -99,5 +99,7 @@
 	"SRE": "Site reliability expert",
 	"TA": "Talent Acquisition or Test Automation",
 	"BC": "Business Consultant - Legacy role in NoAm only, taking care of customers for their first 6 months after BD handover. After 6 months, going to AM. (Doesn't exist anymore in FY22)",
-	"AE": "Account Executive - Former BD, closes the sale"
+	"AE": "Account Executive - Former BD, closes the sale",
+	"ICP": "Ideal Customer Profile",
+	"ROAS": "Return On Ad Spend"
 }
