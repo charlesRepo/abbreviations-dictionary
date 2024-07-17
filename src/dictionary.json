@@ -108,5 +108,6 @@
 	"TAC": "Traffic Acquisition Cost",
 	"CW": "Closed Wons",
 	"SQL": "Sales Qualified Leads",
-	"GTV": "Gross Transaction Value"
+	"GTV": "Gross Transaction Value",
+	"IC": "Individual Contributer"
 }
