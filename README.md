@@ -1,32 +1,65 @@
- 
-### `cd abbreviations-dictionary` 
-### `git pull`
-### `npm i`
+# Abbreviations Dictionary Chrome Extension
 
---
-### `npm start`
+A handy Chrome extension for looking up abbreviations and their meanings.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Setup Instructions
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone the repository and navigate to the project directory:
+   ```bash
+   git clone <repository-url>
+   cd abbreviations-dictionary
+   ```
 
-### `npm test`
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Development
 
-### `npm run build`
+To run the app in development mode:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This will start the development server and open [http://localhost:3000](http://localhost:3000) in your default browser. The page will automatically reload when you make changes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Testing
 
+To run tests in interactive watch mode:
 
-### `cp -R ./build/ ../useful-chrome-extensions/abbreviations-dictionary`
-Copy the `build` directory to the `useful_extensions` directory and rename it abbreviations-dictionary
+```bash
+npm test
+```
+
+## Building for Production
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+This will create an optimized production build in the `build` folder with minified files and hashed filenames.
+
+## Deployment
+
+To deploy the extension to your Chrome extensions directory:
+
+1. Build the production version:
+   ```bash
+   npm run build
+   ```
+
+2. Copy the build to your Chrome extensions directory:
+   ```bash
+   cp -R ./build/ ../useful-chrome-extensions/abbreviations-dictionary
+   ```
+
+## Loading the Extension in Chrome
+
+1. Open Chrome and navigate to `chrome://extensions/`
+2. Enable "Developer mode" in the top right corner
+3. Click "Load unpacked" and select the `build` directory
+4. The extension should now be available in your Chrome toolbar
