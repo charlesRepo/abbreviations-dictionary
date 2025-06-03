@@ -1,16 +1,23 @@
 {
-  "short_name": "React App",
+  "short_name": "Abbr Dict",
   "name": "Abbreviations Dictionary",
   "version": "1.0",
   "manifest_version": 3,
   "action": {
     "default_popup": "index.html",
-    "default_title": "Open the popup",
+    "default_title": "Abbreviations Dictionary",
     "default_icon": "abbr_128.png"
   },
   "icons": {
     "16": "abbr_16.png",
     "48": "abbr_48.png",
     "128": "abbr_128.png"
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["*.woff2", "*.woff", "*.ttf"],
+      "matches": ["<all_urls>"],
+      "use_dynamic_url": true
+    }
+  ]
 }
