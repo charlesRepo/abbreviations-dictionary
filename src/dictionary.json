@@ -96,8 +96,17 @@
 	"CGS": "Customer Growth Specialists - Legacy role that doesn't exist anymore.",
 	"PBP": "People Business Partner - This person interfaces with a specific department within the company as their 'go-to' point of contact for recruitment, issues and advice. They are members of the P&C team.",
 	"FSS": "Field Support Specialists - These specialists help to go on site to install the system for customer",
-	"SRE": "Site reliability expert",
+	"SRE": "Site reliability experts",
 	"TA": "Talent Acquisition or Test Automation",
 	"BC": "Business Consultant - Legacy role in NoAm only, taking care of customers for their first 6 months after BD handover. After 6 months, going to AM. (Doesn't exist anymore in FY22)",
-	"AE": "Account Executive - Former BD, closes the sale"
+	"AE": "Account Executive - Former BD, closes the sale",
+	"AI": "Artificial Intelligence",
+	"LLM": "Large Language Model",
+	"MCP": "Model Context Protocol – is an open standard developed by Anthropic to standardize how AI models like Large Language Models (LLMs) access and utilize context from external tools and data sources.",
+	"B2B": "Business to Business",
+	"B2C": "Business to Consumer",
+	"CRM": "Customer Relationship Management",
+	"A2A": "Agent to Agent",
+	"A2B": "Agent to Business",
+	"A2C": "Agent to Consumer"
 }

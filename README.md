@@ -54,7 +54,7 @@ To deploy the extension to your Chrome extensions directory:
 
 2. Copy the build to your Chrome extensions directory:
    ```bash
-   cp -R ./build/ ../useful-chrome-extensions/abbreviations-dictionary
+   cp -R ./build/ ~/chrome-extensions/abbreviations-dictionary
    ```
 
 ## Loading the Extension in Chrome
