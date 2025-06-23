@@ -108,5 +108,10 @@
 	"CRM": "Customer Relationship Management",
 	"A2A": "Agent to Agent",
 	"A2B": "Agent to Business",
-	"A2C": "Agent to Consumer"
+	"A2C": "Agent to Consumer",
+	"CW": "Closed Won - A sale that has been won and closed by the Account Executive",
+	"BR": "Bogus Rate - The % of rejected leads due to bogus contact information",
+	"QR": "Qualification Rate - The % of MQL leads that convert into SQLs",
+	"CR": "Close Rates - the % of SQLs that convert into CWs",
+	"AR": "Absolute Rates - the % of MQLs that convert into CWs"
 }
