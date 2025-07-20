@@ -113,5 +113,6 @@
 	"BR": "Bogus Rate - The % of rejected leads due to bogus contact information",
 	"QR": "Qualification Rate - The % of MQL leads that convert into SQLs",
 	"CR": "Close Rates - the % of SQLs that convert into CWs",
-	"AR": "Absolute Rates - the % of MQLs that convert into CWs"
+	"AR": "Absolute Rates - the % of MQLs that convert into CWs",
+	"CBI": "Corporate Bullshit Immunity"
 }
